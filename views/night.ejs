@@ -1,0 +1,43 @@
+<%- include("partials/header.ejs"); -%>
+<body class="azkarbgN">
+
+  <nav class="navnight navbar navbar-expand-lg  shadow">
+    <a class="navbar-brand azkartime" href="/">Easy Azkar</a>
+    <p class="pgNo"><%=pgNo%>/20</p>
+</nav>
+<div class="cont0">
+
+<div class="cont1">
+<p class="NNo"><%=num%></p>
+</div>
+
+<div class="Ncont2">
+<p class="Nzikar"><%=azkar%></p>
+</div>
+
+
+
+<div class="cont3">
+<p class="Ntrans"><%=trans%></p>
+
+</div>
+<div class="cont4">
+<p class="ref"><%=ref%></p>
+
+</div>
+</div>
+
+
+
+
+ <a href="/night/<%=prev%>"<i class="NL fix N fas fa-chevron-left"></i></a>
+
+
+<% if(pgNo!=20){ %>
+<a href="/night/<%=pgNo%>"><i class="NL fix N fas fa-chevron-right"></i></a>
+<%}%>
+
+
+
+<footer id="footer" class="Nfoot"></footer>
+</body>
