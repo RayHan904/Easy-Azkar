@@ -287,7 +287,7 @@ animation: transitionIm 1s;
       margin:-20px;
     }
   .Nzikar,  .zikar{
-    font-size:1.9rem;
+    font-size:1.8rem;
   }
   .Ntrans ,.trans{
     font-size:0.9rem;
@@ -313,9 +313,7 @@ animation: transitionIm 1s;
 }
 .Nfoot{
   background-color: #694878;
-  opacity: 70%;
-
-
+  height:20px;
 
 
 }
