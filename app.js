@@ -54,7 +54,7 @@ if(reqId>-1 && reqId<20)
 app.get("/night/:pid", function(req, res){
   const reqId= (req.params.pid);
   const prevs=reqId -1;
-  if(reqId>-1 && reqId<20)
+  if(reqId>-1 && reqId<18)
   {  res.render("night",{
       prev:prevs,
       pgNo:packs[reqId].roll,
