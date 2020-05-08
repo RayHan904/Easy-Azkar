@@ -14,6 +14,8 @@ var favicon = require('serve-favicon');
 
 
 
+
+
 const app = express();
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
@@ -24,8 +26,8 @@ app.use(favicon(__dirname + '/public/favicon.ico'));
 
 
 
-
 app.get("/", function(req, res){
+
   res.render("home");
 });
 
@@ -42,7 +44,8 @@ if(reqId>-1 && reqId<20)
      num:pack[reqId].recitationNo,
     azkar:pack[reqId].zikr,
     trans:pack[reqId].translation,
-    ref:pack[reqId].resource
+    ref:pack[reqId].resource,
+    aud:pack[reqId].aud
 
   });}
   else{
@@ -61,7 +64,9 @@ app.get("/night/:pid", function(req, res){
        num:packs[reqId].recitationNo,
       azkar:packs[reqId].zikr,
       trans:packs[reqId].translation,
-      ref:packs[reqId].resource
+      ref:packs[reqId].resource,
+      aud:packs[reqId].aud
+
 
     });}
     else{

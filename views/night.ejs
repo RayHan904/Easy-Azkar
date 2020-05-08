@@ -4,6 +4,11 @@
   <nav class="navnight navbar navbar-expand-lg  shadow">
     <a class="navbar-brand azkartime" href="/">Easy Azkar</a>
     <p class="pgNo"><%=pgNo%>/20</p>
+    <audio id="audio">
+    <source src="/sounds/<%=aud%>"  type="audio/mp3">
+    </audio>
+
+<img id="but" src="/sounds/play.png" onclick="handlePlay()">
 </nav>
 <div class="cont0">
 
@@ -40,4 +45,31 @@
 
 
 <footer id="footer" class="Nfoot fixed-bottom"></footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+document.getElementById("audio").addEventListener("ended",function(){
+
+  $("img").attr("src", "/sounds/play.png");
+});
+
+
+function handlePlay() {
+
+
+
+  if((document.getElementById("audio").paused)    )
+  {
+    $("img").attr("src", "/sounds/stop.png");
+    document.getElementById("audio").play();
+  } else {
+$("img").attr("src", "/sounds/play.png");
+document.getElementById("audio").pause();
+document.getElementById("audio").currentTime =0;
+  }
+}
+</script>
 </body>
