@@ -50,17 +50,16 @@ const package=[
     zikr:"  أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ، وَالْحَمْدُ لِلَّهِ، لَا إِلَهَ إِلاَّ اللهُ وَحْدَهُ لاَ شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ وَخَيْرَ مَا بَعْدَهَا، وَأَعُوذُبِكَ مِنْ شَرِّ مَا فِي هَذِهِ اللَّيْلَةِ وَشَرِّ مَا بَعْدَهَا، رَبِّ أَعُوذُبِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ، رَبِّ أَعُوذُبِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ",
     translation:"  We have ended another day and with it all dominion is Allah's.. Praise is to Allah. None has the right to be worshipped but Allah alone, Who has no partner. To Allah belongs the dominion, and to Him is the praise and He is Able to do all things. My Lord, I ask You for the goodness of this day and of the days that come after it, and I seek refuge in You from the evil of this day and of the days that come after it. My Lord, I seek refuge in You from laziness and helpless old age. My Lord, I seek refuge in You from the punishment of Hell–fire , and from the punishment of the grave.",
     resource:"Muslim 4/2088",
-    aud:"6th.mp3"
+    aud:"n6th.mp3"
 
   },
 
-
   { roll:7 ,
     recitationNo:"Recite Once",
-    zikr:"  اَللَّهُمَّ بِكَ أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوْتُ وَإِلَيْكَ النُّشُوْرُ",
-    translation:"  O Allah , by You we enter the morning and by You we enter the evening, by You we live and and by You we die, and to You is the Final Return.",
-    resource:"  Sahih At–Tirmithi 3/142.",
-    aud:"7th.mp3"
+    zikr:"اَللَّهُمَّ بِكَ أَمْسَيْنَا، وَبِكَ أَصْبَحْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوْتُ وَإِلَيْكَ الْـمَصِيْرُُ",
+    translation:"  O Allah, You bring us the end of the day as You bring us its beginning, You bring us life and you bring us death, and to You is our fate.",
+    resource:"Sahih At–Tirmithi 3/142.",
+    aud:"n7th.mp3"
 
   },
 
@@ -120,14 +119,13 @@ const package=[
     translation:"O Ever Living One, O Eternal One, by Your mercy I call on You to set right all my affairs. Do not place me in charge of my soul even for the blinking of an eye (i.e. a moment).",
     resource:"Its chain of transmission is sound (Sahih), Al–Hakim 1/545, see Albani, Sahihut–Targhib wat–Tarhib, 1/273.",
     aud:"14th.mp3"
-
   },
   { roll:15,
     recitationNo:"Recite Once",
-    zikr:"أَصْبَحْنَا عَلَى فِطْرَةِ اْلإِسْلاَمِ وَعَلَى كَلِمَةِ اْلإِخْلاَصِ، وَعَلَى دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، وَعَلَى مِلَّةِ أَبِيْنَا إِبْرَاهِيْمَ، حَنِيْفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِيْنَ",
-    translation:"We have entered a new day upon the natural religion of Islam, the word of sincere devotion, the religion of our Prophet Muhammad (peace and blessings of Allah be upon him), and the faith of our father Ibrahim. He was upright (in worshipping Allah), and a Muslim. He was not of those who worship others besides Allah.",
+    zikr:"أَمْسَيْنَا عَلَى فِطْرَةِ اْلإِسْلاَمِ وَعَلَى كَلِمَةِ اْلإِخْلاَصِ، وَعَلَى دِيْنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ، وَعَلَى مِلَّةِ أَبِيْنَا إِبْرَاهِيْمَ، حَنِيْفًا مُسْلِمًا وَمَا كَانَ مِنَ الْمُشْرِكِيْنََ",
+    translation:"We end this day upon the natural religion of Islam, the word of sincere devotion, the religion of our Prophet Muhammad (peace and blessings of Allah be upon him), and the faith of our father Ibrahim. He was upright (in worshipping Allah), and a Muslim. He was not of those who worship others besides Allah.",
     resource:"Ahmad 3/406–7, 5/123, An–Nasa'i, 'Amalul– Yawm wal–Laylah (no. 34), At–Tirmithi 4/209.",
-    aud:"15th.mp3"
+    aud:"n15th.mp3"
 
   },
   { roll:16,
@@ -143,7 +141,7 @@ const package=[
     zikr:"سُبْحَانَ اللهِ وَبِحَمْدِهِ",
     translation:"Glory is to Allah and praise is to Him",
     resource:"Al–Bukhari 4/2071.",
-    aud:"4th.mp3"
+    aud:"19th.mp3"
 
   },
   { roll:18 ,

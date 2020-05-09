@@ -168,7 +168,7 @@ animation: transitionIm 1s;
   font-size: 1rem;
   margin:auto;
   font-weight: 600;
-  padding-right:20vh;
+  padding-right:18vh;
 }
 .NNo{
   color:#381460;
@@ -265,7 +265,7 @@ animation: transitionIm 1s;
 @media screen and (max-width :600px) {
   .pgNo{
     padding-right:1vh;
-    padding-left: 16vh;
+    padding-left: 12vh;
     text-align: right;
 
   }

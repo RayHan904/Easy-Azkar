@@ -155,7 +155,7 @@ const package=[
     zikr:"سُبْحَانَ اللهِ وَبِحَمْدِهِ",
     translation:"Glory is to Allah and praise is to Him",
     resource:"Al–Bukhari 4/2071.",
-    aud:"18th.mp3"
+    aud:"19th.mp3"
 
   },
   { roll:20 ,
@@ -163,7 +163,7 @@ const package=[
     zikr:"أَسْتَغْفِرُ اللهَ وَأَتُوْبُ إِلَيْهِ",
     translation:"I seek the forgiveness of Allah and repent to Him.",
     resource:"Al–Bukhari, cf. Al–Asqalani, Fathul–Bari 11/101, Muslim 4/2075",
-    aud:"4th.mp3"
+    aud:"20th.mp3"
 
   },
 
